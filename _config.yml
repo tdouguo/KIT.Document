@@ -39,8 +39,8 @@ cookbook:
   gitment:
     enable: true
     id: kylin-zh
-    client_id: 3620f7cdd1c50b4b6e3c
-    client_secret: 50664006a799cb29b27e8358b88a6a4580e8dc0c
+    client_id: af6511a0afe81325b1b8
+    client_secret: c9db5c29d06230d90add29cb40f7b26525084d6b
     github_owner: kylin
     github_repository: kylin-zh.app
     cross_server: https://31225080.ap-southeast-1.fc.aliyuncs.com/2016-08-15/proxy/gitment/gitment-cross/
