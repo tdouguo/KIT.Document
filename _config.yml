@@ -35,7 +35,7 @@ cookbook:
   tag:
     anchor:
       default: core
-      core: https://github.com/CatLib/Core
+      core: https://github.com/Kylin-Studio/Kit
   gitment:
     enable: true
     id: kylin-zh
