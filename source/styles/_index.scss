@@ -1,0 +1,212 @@
+#banner
+{
+    min-height: 100%;
+    background-color: #252526;
+    background: linear-gradient(#383838, #252526);
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    ul
+    {
+        padding: 15px 10px 15px 10px;
+        list-style: none;
+        li.right
+        {
+            float: right;
+        }
+        li
+        {
+            float: left;
+            height: 35px;
+            padding-left: 12px;
+            padding-right: 12px;
+            line-height: 35px;
+            font-size: 13px;
+            color: rgb(135,135,135);
+            a
+            {
+                color: #fff ;
+            }
+            i.fa-github
+            {
+                font-size: 35px;
+            }
+        }
+    }
+    h1
+    {
+        $body-font : 'Segoe UI' , 'Hiragino Sans GB' , 'MS Sans Serif', 'MS Sans Serif','Arial Narrow', Arial, sans-serif;
+        margin-top: 150px;
+        font-size: 90px;
+        font-family: $body-font;
+        font-weight: 100;
+        padding-bottom: 30px;
+        blockquote
+        {
+            font-family: $body-font;
+            position: relative;
+            top: -50px;
+            font-size: 24px;
+            display: inline-block;
+            padding: 3px 7px 3px 7px;
+            margin-left: 10px;
+            color: #fff;
+        }
+    }
+    h2
+    {
+        font-size: 13px;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-weight: normal;
+        line-height: 40px;
+        color: #eee;
+    }
+    .btn-download
+    {
+        margin-top: 50px;
+        a
+        {
+            display: block;
+            background-color: #c04747;
+            width: 125px;
+            height: 40px;
+            line-height: 40px;
+            margin: 0 auto;
+            color: #fff;
+            font-size: 13px;
+        }
+        a:hover
+        {
+            text-decoration: none;
+            background-color: #aa3939;
+        }
+    }
+    .code-demo
+    {
+        width: 605px;
+        margin: 0 auto;
+        padding-top: 75px;
+        .top-bar
+        {
+            height: 30px;
+            margin-bottom: 0;
+            border-radius: 5px 5px 0px 0px;
+            border-bottom: 1px solid rgb(65,65,65);
+            background-color: rgb(75,75,75);
+            .circles
+            {
+                padding-top: 11px;
+                padding-left: 5px;
+                .circle
+                {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 4px;
+                    background-color: rgb(125,125,125);
+                    float: left;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .window-content
+        {
+            background-color: rgb(60,60,60);
+            border-radius: 0px 0px 5px 5px;
+            overflow: hidden;
+            ol
+            {
+                font-size: 12px;
+                padding: 0;
+                text-align: left;
+                li
+                {
+                    float: none;
+                    height: 24px;
+                    line-height: 24px;
+                    color: white;
+                    .line
+                    {
+                        width: 30px;
+                        height: 100%;
+                        text-align: right;
+                        padding-right: 10px;
+                        margin-right: 15px;
+                        color: rgb(145,145,145);
+                        background-color: rgb(75,75,75);
+                        display: inline-block;
+                    }
+                    .token.keywords
+                    {
+                        color: rgb(86,156,214);
+                    }
+                    .token.interface
+                    {
+                        color: rgb(184,215,163);
+                    }
+                    .token.text
+                    {
+                        color: rgb(214,157,133);
+                    }
+                }
+            }
+        }
+    }
+             
+    #footer
+    {
+        bottom: 0;
+        width: 100%;
+        padding-bottom: 50px;
+        padding-top: 175px;
+        p
+        {
+            text-align: center;
+            color: #888;
+            font-size: 12px;
+            padding-top: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 640px) 
+{
+    #banner
+    {
+        ul
+        {
+            li
+            {
+                img
+                {
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+        h1
+        {
+            margin-top: 75px;
+            font-size: 54px;
+            blockquote
+            {
+                top: -30px;
+                font-size: 16px;
+                margin-left: 0px;
+            }
+        }
+        .code-demo
+        {
+            width: 90%;
+        }
+        #footer
+        {
+            padding-top: 50px;
+        }
+
+        .hiden
+        {
+            display: none;
+        }
+    }
+}

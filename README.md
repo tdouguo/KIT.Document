@@ -1,2 +1,1 @@
-# KyLin.App
-kylin web
+# Kit
