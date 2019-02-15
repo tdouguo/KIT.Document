@@ -1,0 +1,29 @@
+language: node_js
+node_js: stable
+sudo: required
+
+before_install:
+  - npm install -g hexo-cli
+
+install:
+  - npm install
+  - npm install js-yaml --save-dev
+  - npm install nodejieba --save-dev
+
+script:
+  - hexo clean
+  - hexo g
+  
+deploy:
+  provider: pages
+  local-dir: public
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  committer-from-gh: true
+  on:
+    branch: 1.0
+
+branches:
+  only:
+    - 1.0
+    - master

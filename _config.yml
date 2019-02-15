@@ -1,0 +1,49 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: KyLin
+author: kevin
+timezone: UTC
+
+# URL
+## If your site is put in a subdirectory, set url as 'https://seed.catlib.io/child' and root as '/child/'
+url: https://kylin.app
+root: /
+
+# Writing
+relative_link: false
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: ../node_modules/hexo-theme-cookbook
+
+ignore:
+  - '**/node_modules/**/*node_modules'
+
+node_sass:
+  includePaths:
+   - node_modules
+
+cookbook:
+  favicon: favicon.ico
+  partials:
+    index:
+      - _layout/index.ejs
+  tag:
+    anchor:
+      default: core
+      core: https://github.com/CatLib/Core
+  gitment:
+    enable: true
+    id: kylin-zh
+    client_id: 3620f7cdd1c50b4b6e3c
+    client_secret: 50664006a799cb29b27e8358b88a6a4580e8dc0c
+    github_owner: kylin
+    github_repository: kylin-zh.app
+    cross_server: https://31225080.ap-southeast-1.fc.aliyuncs.com/2016-08-15/proxy/gitment/gitment-cross/
+    per_page: 30
+    maintainer:
+      - yb199478

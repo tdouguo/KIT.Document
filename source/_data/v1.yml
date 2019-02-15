@@ -1,0 +1,31 @@
+navigation:
+  -
+    levels:
+      -
+        text : Kit
+        href : /
+      -
+        text: 首页
+        href : index.html
+  -
+    divider: true
+  -
+    text: 扬帆起航
+  -
+    text: 介绍
+    href: index.html
+  -
+    text: 常见问题
+    href: faq.html
+  -
+    text: 已知BUG
+    href: bug.html
+  -
+    text: 更新日志
+    href: upgrade.html
+  -
+    divider : true
+  -
+    text: Power by KyLin
+    href: https://github.com/kylin-Studio
+    external: true

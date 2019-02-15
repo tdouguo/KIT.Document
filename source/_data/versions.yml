@@ -1,0 +1,6 @@
+versions:
+  -
+    test: ^v1\/
+    name: v1.0
+    active: Latest(v1.0)
+    data: v1
