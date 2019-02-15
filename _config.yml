@@ -47,3 +47,7 @@ cookbook:
     per_page: 30
     maintainer:
       - yb199478
+deploy:
+  type: git
+  repository: https://github.com/Kylin-Studio/kylin.app
+  branch: 1.0
