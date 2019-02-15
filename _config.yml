@@ -18,7 +18,7 @@ relative_link: false
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ../node_modules/hexo-theme-cookbook
+theme: hexo-theme-cookbook
 
 ignore:
   - '**/node_modules/**/*node_modules'
