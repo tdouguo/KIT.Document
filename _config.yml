@@ -5,12 +5,13 @@
 # Site
 title: KyLin
 author: kevin
+language: zh-Hans
 timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'https://seed.catlib.io/child' and root as '/child/'
 url: https://kylin.app
-root: /source
+root: /
 
 # Writing
 relative_link: false
@@ -20,7 +21,7 @@ relative_link: false
 ## Themes: https://hexo.io/themes/
 theme: ../node_modules/hexo-theme-cookbook
 
-language: zh-Hans
+
 
 ignore:
   - '**/node_modules/**/*node_modules'
@@ -44,8 +45,8 @@ cookbook:
     client_id: af6511a0afe81325b1b8
     client_secret: c9db5c29d06230d90add29cb40f7b26525084d6b
     github_owner: kevin
+    github_user : gjmvvv
     github_repository: kylin.app
-    cross_server: https://31225080.ap-southeast-1.fc.aliyuncs.com/2016-08-15/proxy/gitment/gitment-cross/
     per_page: 30
     maintainer:
       - yb199478
@@ -54,12 +55,7 @@ social:
   GitHub: https://github.com/gjmvvv
   Twitter: https://twitter.com/Kevin37233035
   Weibo: https://www.weibo.com/5730394625/
-  DouBan: your-douban-url
-  ZhiHu: your-zhihu-url
 
-duoshuo:
-  enable: true
-  shortname: your-duoshuo-shortname
 
 deploy:
   type: git

@@ -22,7 +22,7 @@ navigation:
 tool:
   editor: 
     text: 编辑
-    href: https://github.com/Kylin-Studio/kylin.app/tree/1.0/
+    href: https://github.com/Kylin-Studio/kylin.app/tree/master/
     external: true
 
 support:
@@ -30,5 +30,5 @@ support:
     - '在文档中没有找到您需要的内容？'
     - '尝试在左侧搜索栏中搜索，或者{text}'
   text: 在GitHub中发起提问
-  href: https://github.com/Kylin-Studio/Kit/issues
+  href: https://github.com/Kylin-Studio/kylin.app/issues
   external: true
