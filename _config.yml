@@ -20,6 +20,8 @@ relative_link: false
 ## Themes: https://hexo.io/themes/
 theme: ../node_modules/hexo-theme-cookbook
 
+language: zh-Hans
+
 ignore:
   - '**/node_modules/**/*node_modules'
 
@@ -47,8 +49,20 @@ cookbook:
     per_page: 30
     maintainer:
       - yb199478
+
+social:
+  GitHub: https://github.com/gjmvvv
+  Twitter: https://twitter.com/Kevin37233035
+  Weibo: https://www.weibo.com/5730394625/
+  DouBan: your-douban-url
+  ZhiHu: your-zhihu-url
+
+duoshuo:
+  enable: true
+  shortname: your-duoshuo-shortname
+
 deploy:
   type: git
   repository: https://github.com/Kylin-Studio/kylin.app
-  branch: "1.0"
+  branch: "gh-pages"
   message: "Update Web"
