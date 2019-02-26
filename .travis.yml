@@ -21,9 +21,9 @@ deploy:
   github-token: $GITHUB_TOKEN
   committer-from-gh: true
   on:
-    branch: 1.0
+    branch: master
 
 branches:
   only:
-    - 1.0
+    - gh-pages
     - master
