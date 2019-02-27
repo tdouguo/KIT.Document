@@ -59,6 +59,6 @@ social:
 
 deploy:
   type: git
-  repository: https://github.com/Kylin-Studio/kylin.app
+  repository: git@github.com:Kylin-Studio/kylin.app.git
   branch: "gh-pages"
   message: "Update Web"
