@@ -24,6 +24,9 @@ navigation:
     text: 更新日志
     href: upgrade.html
   -
+    text: 关于我
+    href: AboutMe.html
+  -
     divider : true
   -
     text: Power by KyLin
