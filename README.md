@@ -54,7 +54,7 @@ Kit 设计初衷则是根据业务需求自由组合搭配其中组件, 项目�
 
 ## 技术支持
 
-* QQ群: 633542313
+* QQ群: 633542313 [![](https://pub.idqqimg.com/wpa/images/group.png)](//shang.qq.com/wpa/qunwpa?idkey=1235068de91ee5b340182dfa324f2d118fa586c8dd4053946763172de0f5d580)
 * email: kevin@kylin.app
 * home: [http://kylin.app/](https://kylin.app/)
 

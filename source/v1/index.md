@@ -9,7 +9,7 @@ title: 介绍
 
 ## 技术支持
 
-- QQ群: [633542313](//shang.qq.com/wpa/qunwpa?idkey=1235068de91ee5b340182dfa324f2d118fa586c8dd4053946763172de0f5d580)
+- QQ群: 633542313 [![](https://pub.idqqimg.com/wpa/images/group.png)](//shang.qq.com/wpa/qunwpa?idkey=1235068de91ee5b340182dfa324f2d118fa586c8dd4053946763172de0f5d580)
 - email: kevin@kylin.app 
 - slack: kylin.slack (敬请期待)
 
