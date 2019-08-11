@@ -4,7 +4,7 @@ title: 介绍
 
 # 介绍
 
-<a href="https://github.com/Kylin-Studio/Kit/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" title="license-mit" /></a> <a href="https://ci.appveyor.com/project/gjmvvv/kit"><img src="https://ci.appveyor.com/api/projects/status/tk3o571mwbw2rykj?svg=true" title="Build status"/></a> <a href="https://github.com/Kylin-Studio/Kit/"><img src="https://img.shields.io/badge/version-v1-green.svg" title="GitHub version" ></a> <a href="https://github.com/Kylin-Studio/Kit/releases"><img src="https://img.shields.io/badge/Download-1k-green.svg" title="Downloads" /></a>
+<a href="https://github.com/KylinTechnologies/Kit/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" title="license-mit" /></a> <a href="https://ci.appveyor.com/project/CnTDou/kit"><img src="https://ci.appveyor.com/api/projects/status/tk3o571mwbw2rykj?svg=true" title="Build status"/></a> <a href="https://github.com/KylinTechnologies/Kit/"><img src="https://img.shields.io/badge/version-v1-green.svg" title="GitHub version" ></a> <a href="https://github.com/KylinTechnologies/Kit/releases"><img src="https://img.shields.io/badge/Download-1k-green.svg" title="Downloads" /></a>
 
 
 Kit for Unity 是Unity3D开发的工具包集合, 集成常见的开发组件以免于重复造轮子。

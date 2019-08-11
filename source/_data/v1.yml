@@ -22,5 +22,5 @@ navigation:
     divider : true
   -
     text: Power by KyLin
-    href: https://github.com/kylin-Studio
+    href: https://github.com/KylinTechnologies
     external: true

@@ -4,7 +4,7 @@
 
 # Site
 title: KyLin
-author: kevin
+author: TDou
 language: zh-Hans
 timezone: UTC
 
@@ -38,27 +38,25 @@ cookbook:
   tag:
     anchor:
       default: core
-      core: https://github.com/Kylin-Studio/Kit
+      core: https://github.com/KylinTechnologies/Kit
   gitment:
     enable: true
     id: kylin-zh
     client_id: af6511a0afe81325b1b8
     client_secret: c9db5c29d06230d90add29cb40f7b26525084d6b
-    github_owner: kevin
-    github_user : gjmvvv
+    github_owner: CnTDou
+    github_user : CnTDou
     github_repository: kylin.app
     per_page: 30
     maintainer:
       - yb199478
 
 social:
-  GitHub: https://github.com/gjmvvv
-  Twitter: https://twitter.com/Kevin37233035
-  Weibo: https://www.weibo.com/5730394625/
+  GitHub: https://github.com/CnTDou
 
 
 deploy:
   type: git
-  repository: git@github.com:Kylin-Studio/kylin.app.git
+  repository: git@github.com:KylinTechnologies/kylin.app.git
   branch: "gh-pages"
   message: "Update Web"
