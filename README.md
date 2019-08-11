@@ -1,4 +1,4 @@
-<p align="center"><img width="128" height="128" src="https://kylin.app/imgs/logo.png"></p>
+<p align="center"><img width="128" height="128" src="https://kylin.app/images/logo.png"></p>
 
 <p align="center">
 <a href="https://github.com/KylinTechnologies/Kit/blob/master/LICENSE">
@@ -13,7 +13,7 @@
 
 > We are currently preparing to convert the comments in the code to the English version. We look forward to your joining.
 
-> 了解 [Kit](https://github.com/KylinTechnologies/Kit) 源码
+> 了解 [Kit](https://github.com/KylinTechnologies/Kit) 源码 çc
 > 了解 [Kit.Core](https://github.com/KylinTechnologies/Kit-Core) 源码
 
 
