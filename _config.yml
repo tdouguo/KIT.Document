@@ -41,18 +41,18 @@ cookbook:
       core: https://github.com/KylinTechnologies/Kit
   gitment:
     enable: true
-    id: kylin-zh
+    id: '<%= page.title %>'
     client_id: af6511a0afe81325b1b8
     client_secret: c9db5c29d06230d90add29cb40f7b26525084d6b
-    github_owner: CnTDou
-    github_user : CnTDou
+    github_owner: T-Dou
+    github_user : T-Dou
     github_repository: kylin.app
     per_page: 30
     maintainer:
       - yb199478
 
 social:
-  GitHub: https://github.com/CnTDou
+  GitHub: https://github.com/T-Dou
 
 
 deploy:
