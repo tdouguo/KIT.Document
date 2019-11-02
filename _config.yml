@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: KyLin
+title: Kit 文档 | Unity 开发框架 & C# 开发工具包
 author: TDou
 language: zh-Hans
 timezone: UTC
@@ -46,7 +46,7 @@ cookbook:
     client_secret: c9db5c29d06230d90add29cb40f7b26525084d6b
     github_owner: T-Dou
     github_user : T-Dou
-    github_repository: kylin.app
+    github_repository:  
     per_page: 30
     maintainer:
       - yb199478
