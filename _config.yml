@@ -44,8 +44,8 @@ cookbook:
     id: '<%= page.title %>'
     client_id: af6511a0afe81325b1b8
     client_secret: c9db5c29d06230d90add29cb40f7b26525084d6b
-    github_owner: T-Dou
-    github_user : T-Dou
+    github_owner: KylinTechnologies
+    github_user : KylinTechnologies
     github_repository:  
     per_page: 30
     maintainer:

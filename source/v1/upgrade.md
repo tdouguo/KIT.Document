@@ -4,7 +4,7 @@ title: 更新日志
 
 # 更新日志
 
-> KyLin的版本标准是采用：[Semver语义化版本标准](http://semver.org/lang/zh-CN/)
+> Kit的版本标准是采用：[Semver语义化版本标准](http://semver.org/lang/zh-CN/)
 
 ## 摘要
 
@@ -16,5 +16,10 @@ title: 更新日志
 
 > 先行版本号及版本编译信息可以加到`主版本号.次版本号.修订号`的后面，作为延伸。
 
-## v0.1.0-Beta
-
+## 1.0.0-rc
+## 1.0.0-rc.x
+## 1.0.0-beta.x
+## 1.0.0-beta
+## 1.0.0-alpha.beta
+## 1.0.0-alpha.x
+## 1.0.0-alpha
