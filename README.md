@@ -1,20 +1,20 @@
 <p align="center"><img width="128" height="128" src="https://kylin.app/images/logo.png"></p>
 
 <p align="center">
-<a href="https://github.com/KylinTechnologies/Kit/blob/master/LICENSE">
+<a href="https://github.com/t-dou/Kit/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" title="license-mit" /></a>
 <a href="https://ci.appveyor.com/project/CnTDou/kit">
   <img src="https://ci.appveyor.com/api/projects/status/tk3o571mwbw2rykj?svg=true" title="Build status"/></a>
-<a href="https://github.com/KylinTechnologies/Kit/">
+<a href="https://github.com/t-dou/Kit/">
   <img src="https://img.shields.io/badge/version-v0.1.0-green.svg" title="GitHub version" ></a>
-<a href="https://github.com/KylinTechnologies/Kit/releases">
+<a href="https://github.com/t-dou/Kit/releases">
   <img src="https://img.shields.io/badge/Download-1k-green.svg" title="Downloads" /></a>
 </p>
 
 > We are currently preparing to convert the comments in the code to the English version. We look forward to your joining.
 
-> 了解 [Kit](https://github.com/KylinTechnologies/Kit) 源码 çc
-> 了解 [Kit.Core](https://github.com/KylinTechnologies/Kit-Core) 源码
+> 了解 [Kit](https://github.com/t-dou/Kit) 源码 çc
+> 了解 [Kit.Core](https://github.com/t-dou/Kit-Core) 源码
 
 
 ## 关于 Kit
@@ -38,7 +38,7 @@ Kit 设计初衷则是根据业务需求自由组合搭配其中组件, 项目�
 
 ## 学习 Kit
 
-[文档](https://manual.kylin.app/) 
+[文档](https://kylin.app/) 
 
 或者您也可以通过 issues 来提出您的问题，我们及时为您解答。
 
@@ -55,7 +55,7 @@ Kit 设计初衷则是根据业务需求自由组合搭配其中组件, 项目�
 
 ## 技术支持
 
-* email: kevin@kylin.app
+* email: me@tdouplus.com
 * home: [http://kylin.app/](https://kylin.app/)
 
 
