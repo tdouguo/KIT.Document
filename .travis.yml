@@ -1,9 +1,18 @@
-language: node_js
-node_js: stable
+
+language: node_js  #设置语言
+
+node_js: stable  #设置相应的版本 
+cache:
+    apt: true
+    directories:
+        - node_modules # 缓存不经常更改的内容
 sudo: required
 
+
 before_install:
+  - export TZ='Asia/Shanghai' # 更改时区
   - npm install -g hexo-cli
+  - npm install -g gulp  # 初次或删除缓存时取消注释
 
 install:
   - npm install
@@ -12,7 +21,7 @@ install:
 
 script:
   - hexo clean
-  - hexo g
+  - hexo g && gulp
 
 after_script:
   - git clone https://${GH_REF} .deploy_git  # GH_REF是最下面配置的仓库地址
