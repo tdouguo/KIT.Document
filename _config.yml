@@ -55,8 +55,8 @@ social:
   GitHub: https://github.com/T-Dou
 
 
-deploy:
-  type: git
-  repository: git@github.com:T-DOu/Kit.Document.git
-  branch: "gh-pages"
-  message: "deploy Auto Builder at `date +"%Y-%m-%d %H:%M"`"
+# deploy:
+#   type: git
+#   repository: git@github.com:T-DOu/Kit.Document.git
+#   branch: "gh-pages"
+#   message: "deploy Auto Builder at `date +"%Y-%m-%d %H:%M"`"
