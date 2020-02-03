@@ -109,7 +109,7 @@ Kit 是Unity3D开发的工具包集合, 集成常见的开发组件,工具,组�
 
 ## 授权
 
-开源许可：[MIT license](http://opensource.org/licenses/MIT).
+开源许可：[MIT license](https://opensource.org/licenses/MIT).
 
 
 ## 项目开发计划

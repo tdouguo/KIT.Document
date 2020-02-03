@@ -4,7 +4,7 @@ title: 更新日志
 
 # 更新日志
 
-> Kit的版本标准是采用：[Semver语义化版本标准](http://semver.org/lang/zh-CN/)
+> Kit的版本标准是采用：[Semver语义化版本标准](https://semver.org/lang/zh-CN/)
 
 ## 摘要
 

@@ -21,7 +21,8 @@ relative_link: false
 ## Themes: https://hexo.io/themes/
 theme: ../node_modules/hexo-theme-cookbook
 
-
+# seo
+baidu_push: true
 
 ignore:
   - '**/node_modules/**/*node_modules'
