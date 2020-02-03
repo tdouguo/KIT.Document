@@ -10,7 +10,7 @@ timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'https://seed.catlib.io/child' and root as '/child/'
-url: https://kylin.app
+url: https://kit.tdouplus.com
 root: /
 
 # Writing
@@ -38,14 +38,14 @@ cookbook:
   tag:
     anchor:
       default: core
-      core: https://github.com/KylinTechnologies/Kit
+      core: https://github.com/T-dou/Kit
   gitment:
     enable: true
     id: '<%= page.title %>'
     client_id: af6511a0afe81325b1b8
     client_secret: c9db5c29d06230d90add29cb40f7b26525084d6b
-    github_owner: KylinTechnologies
-    github_user : KylinTechnologies
+    github_owner: T-Dou
+    github_user : T-Dou
     github_repository:  
     per_page: 30
     maintainer:
@@ -57,6 +57,6 @@ social:
 
 deploy:
   type: git
-  repository: git@github.com:KylinTechnologies/kylin.app.git
+  repository: git@github.com:T-DOu/Kit.Document.git
   branch: "gh-pages"
-  message: "Update Web"
+  message: "deploy Auto Builder at `date +"%Y-%m-%d %H:%M"`"
