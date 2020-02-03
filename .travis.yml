@@ -27,3 +27,9 @@ branches:
   only:
     - gh-pages
     - master
+
+notifications:
+  email:
+    - me@tdouplus.com
+  on_success: change
+  on_failure: always
