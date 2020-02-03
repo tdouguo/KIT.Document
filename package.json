@@ -1,5 +1,5 @@
 {
-    "name": "Kit Doucument",
+    "name": "Kit.Doucument",
     "version": "1.0.0",
     "private": true,
     "hexo": {
@@ -22,7 +22,7 @@
         "gulp-htmlmin": "^4.0.0",
         "gulp-imagemin": "^4.1.0",
         "gulp-minify-css": "^1.2.4",
-        "gulp-uglify": "^3.0.1",
+        "gulp-uglify": "^3.0.1"
     },
     "devDependencies": {
         "hexo-server": "^0.3.3"
