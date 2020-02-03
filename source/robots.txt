@@ -1,0 +1,13 @@
+# robots.txt generated at http://tool.chinaz.com/robots/ 
+User-agent: *
+Allow: /
+Allow: /v1/
+Disallow: /images/
+Disallow: /lasted/
+Disallow: /styles/
+Disallow: /scripts/
+
+Sitemap: https://kit.tdouplsu.com/atom.xml
+Sitemap: https://kit.tdouplsu.combaidusitemap.xml
+Sitemap: https://kit.tdouplsu.com/search.xml
+Sitemap: https://kit.tdouplsu.com/sitemap.xml

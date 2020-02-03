@@ -23,6 +23,17 @@ theme: ../node_modules/hexo-theme-cookbook
 
 # seo
 baidu_push: true
+baidusitemap: 
+path: baidusitemap.xml
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+local_search:
+  enable: true
 
 ignore:
   - '**/node_modules/**/*node_modules'
