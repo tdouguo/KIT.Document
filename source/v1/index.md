@@ -33,65 +33,93 @@ Kit 设计初衷则是根据业务需求自由组合搭配其中组件, 项目�
 - 任意基础组件都可抽取到其他项目中使用
 - 业务服务基于基础组件扩展(业务服务+依赖基础组件)即可抽取到其他项目中使用.
 
-## 组件简介
 
-- ***对象池(pool)*** [敬请期待]
+## 关于 Kit[尚未出生,孵化中. . . ]
 
-- ***有限状态机(fsm)*** [敬请期待]
+Kit 是Unity3D开发的工具包集合, 集成常见的开发组件,工具,组件库等. 免于重复造轮子
+,Kit设计初衷则是根据业务需求自由组合搭配其中组件\tool\dll等,项目在任何阶段都可以轻松接入。
 
-- ***数据(data)*** [敬请期待]
 
+## 主要特色
+
+***kit-core (.net)***
+
+- base
+	- 静态工具(时间戳转换,字符串优化,IO相关操作)
+	- 事件消息
+	- 引用池
+- 自定义池
+- 线程池
+
+
+***kit-unity***
+
+- [ ] 新手引导(NoviceGuide)
+- [ ] (Timeline)新手引导编辑器
+- [ ] (Timeline)剧情编辑器
+- [ ] 任务编辑器
+- [ ] 技能编辑器
+- [ ] 动画编辑器
+- [ ] 特效编辑器
+- [ ] 2D地图编辑器
+	- 根据刷的方块或其他自动生成1个物理碰撞或安装指定规则生成大的碰撞
+	- 刷地图版块功能
+- [ ] ***Setting*** 实现本地数据缓存, key=value
+- [ ] ***Network*** 实现网络连接 tcp,udp,kcp
+	- [ ] socket-tcp 功能:断线重连、心跳检测、粘包、拆包 扩展协议 protobuf
+	- [ ] scoket-udp
+	- [ ] socket-kcp
+	- [ ] net-htpp Get、Post请求, 提供自定义请求头,RES非对称加密 等技术处理
+- [ ] ***FSM*** 有限状态机
+- [ ] ***Download*** 实现并发下载,多线程下载 
+- [ ] ***Res*** 集成 Resources,StreamingAssets-AB,网络下载AB,管理资源, 基于XAsset实现 AssetBundle,自定义开发AssetBundleEditor指定打包规则.
+	- [ ] ***Scene*** 基于Res(编辑器、AB),实现场景之间切换,附加,移除.
+	- [ ] ***Audio*** 基于Res(编辑器、AB),网络动态下载,网络在线资源(mp3,wav)等
+	- [ ] ***Picture*** 基于Res(编辑器、AB),实现Sprite自动化引用管理以及释放,网络动态下载,网络在线资源
+	- [ ] ***Entity*** 基于Res(编辑器、AB),实现GameObject 对象池处理资源加载卸载
+- [ ] ***pool*** 对象池
+- [ ] ***Video*** 视频
+- [ ] ***Data***
 	1. data-table 二维表结构(excle,sqlite)
 	2. data-node 节点结构(xml,json)
-
-
-- ***事件(event)*** [敬请期待] 提供模块之间消息通讯, 以及异步线程之间通讯
-
-- ***网络(net)*** [敬请期待] Socket+Protobuf
-
-	1. net-tcp
-		- 提供断线重连、心跳检测、粘包、拆包
-		- 扩展协议通讯 protobuf
-	2. net-udp
-	3. net-kcp
-	4. net-http Get、Post请求, 提供自定义请求头,RES非对称加密 等技术处理
-
-
-- ***Utility*** 工具 
-
+- [ ] ***Event*** 提供模块之间消息通讯, 以及异步线程之间通讯
+- [ ] 内嵌Web浏览器(BuiltInWeb)
+- [ ] 热更新(xLua\IRuntime)
+- [ ] ***Utility*** 工具 
 	1. [依赖Unity] 截屏、GPS定位、IO处理、音频转换(AudioClip)、Windows对话框、Misc(WWW请求、图片、UI、Input)等
 	2. 时间戳、 数据处理、Misc(string相关处理)等
+- [ ] ***i18n*** 国际化
+- [ ] ***Process*** 流程 控制游戏/App整体流程
 
 
+***kit-tool***
 
-- ***新手引导(NoviceGuide)*** [敬请期待] 
-
-
-- ***国际化(i18n)*** [敬请期待]
-
-	- [依赖] Data
-
-
-- ***流程(process)*** [敬请期待] 控制游戏/App整体流程
-
-- ***实体(entity)*** [敬请期待] 
-
-- ***声音(audio)*** [敬请期待] 
-
-- ***视频(video)*** [敬请期待] 
-
-- ***资源(res)*** [敬请期待] 提供2种加载模式自由切换
-
-	1. AssetBundle 加载资源 AssetBundle.Model (FoxRes(热更新模式),Packet(内嵌在安装包内模式))
-		- AssetBundle Editor
-	2. Resources 加载资源
-	3. res-audioclip 加载网络音频(缓存/不缓存)、加载AB音频、加载Respurces音频、加载Packet内音频
-	4. res-sprite 加载网络图片(缓存/不缓存)、加载AB图片、加载Resources图片、加载Packet图片
+- unity 自动打包
+	- [ ] android@{apk} 
+	- [ ] ios@{xcode project,ipa}
+	- [ ] android@{apk} ios@{ipa] 自动上传 fir.im
+	- [ ] ios@{ipa} 自动上传appstore
 
 
-- ***内嵌Web浏览器(BuiltInWeb)*** [敬请期待] 
+## 学习 Kit
 
-- ***热更新(xLua\IRuntime)*** [敬请期待] 
+[文档](https://kit.tdouplus.com) 
+
+或者您也可以通过 issues 来提出您的问题，我们及时为您解答。
+
+请不要提问「现成」问题，即那些简单搜一搜就能得到答案的，对经验和洞察力几乎没有要求的问题。 
+
+详请参考《[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)》
+
+
+## 授权
+
+开源许可：[MIT license](http://opensource.org/licenses/MIT).
+
+
+## 项目开发计划
+
+进入 [Kit开发计划](https://www.teambition.com/project/5c641818c156ca00170bcc98/tasks/scrum/5c6418a49502f00017416bd7)来了解未来的开发序列。
 
 
 ## 技术支持
@@ -102,13 +130,12 @@ Kit 设计初衷则是根据业务需求自由组合搭配其中组件, 项目�
 <!-- > QQ群禁止水聊，但对技术类提问范围不限制，如：遇到友情链接中的项目的问题也可以直接在群中`@相关作者`。 -->
 
 
-
-
 ## 友情链接
 
 ### 热更新方案
 
 - [ILRuntime](https://github.com/Ourpalm/ILRuntime) 项目为基于C#的平台（例如Unity）提供了一个纯C#实现的，快速、方便并且可靠的IL运行时，使得能够在不支持JIT的硬件环境（如iOS）能够实现代码的热更新（`@蓝色幻想`）
+
 - [XLua](https://github.com/Tencent/xLua) 为Unity、 .Net、 Mono等C#环境增加Lua脚本编程的能力，借助xLua，这些Lua代码可以方便的和C#相互调用。（`@John`）
 
 

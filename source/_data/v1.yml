@@ -21,6 +21,6 @@ navigation:
   - 
     divider : true
   -
-    text: Power by KyLin
-    href: https://github.com/KylinTechnologies
+    text: Power by TDOU
+    href: https://github.com/t-dou
     external: true
