@@ -4,7 +4,6 @@ title: 介绍
 
 # 介绍
 
-<p align="center">
 <a href="https://github.com/t-dou/kit-cre/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" title="license-mit" /></a>
 <a href="https://ci.appveyor.com/project/gjmvvv/kit">
@@ -17,7 +16,6 @@ title: 介绍
   <img src="https://img.shields.io/github/stars/t-dou/Kit.svg?style=social&label=Stars" title="GitHub stars" /></a>
 <a href="https://github.com/t-dou/Kit">
   <img src="https://img.shields.io/github/forks/t-dou/Kit.svg?style=social&label=Fork" title="GitHub forks" /></a>
-</p>
 
 > We are currently preparing to convert the comments in the code to the English version. We look forward to your joining.
 
