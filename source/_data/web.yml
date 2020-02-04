@@ -9,10 +9,10 @@ navigation:
     list:
       -
         text: ILRuntime支持库(敬请期待)
-        href: https://ilruntime.kylin.app
+        href: https://kit.tdouplus.com/ilruntime
       -
         text: xLua支持库(敬请期待)
-        href: https://xlua.kylin.app
+        href: https://kit.tdouplus.com/xlua
   -
     type: icon
     fontawesome: github

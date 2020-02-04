@@ -66,6 +66,8 @@ cookbook:
 social:
   GitHub: https://github.com/T-Dou
 
+support:
+  issues: https://github.com/T-Dou/Kit/issues
 
 # deploy:
 #   type: git
