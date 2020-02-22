@@ -1,3 +1,4 @@
+![](https://tdou-public.oss-cn-hangzhou.aliyuncs.com/img/kit-logo.png)
 
 <p align="center">
 <a href="https://github.com/t-dou/kit-cre/blob/master/LICENSE">
