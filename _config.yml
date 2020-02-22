@@ -53,15 +53,14 @@ cookbook:
       core: https://github.com/T-dou/Kit
   gitment:
     enable: true
-    id: '<%= page.title %>'
+    id: Kit
     client_id: af6511a0afe81325b1b8
     client_secret: 4cf7460be4450b8598a6eac3d8d1a0b0e7820937
     github_owner: T-Dou
-    github_user : T-Dou
     github_repository: Kit.Document
-    # per_page: 30
-    # maintainer:
-    #   - yb199478
+    per_page: 30
+    maintainer:
+      - yb199478
 
 social:
   GitHub: https://github.com/T-Dou
