@@ -1,5 +1,9 @@
 
 <p align="center">
+<img src="https://cdn.tdouplus.com/img/kit-logo.png"  height="200" width="200">
+</p>
+
+<p align="center">
 <a href="https://github.com/t-dou/kit-cre/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" title="license-mit" /></a>
 <a href="https://ci.appveyor.com/project/gjmvvv/kit">
