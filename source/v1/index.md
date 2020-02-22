@@ -4,6 +4,11 @@ title: 介绍
 
 # 介绍
 
+<p align="center">
+<img src="https://cdn.tdouplus.com/img/kit-logo.png"  height="200" width="200">
+</p>
+
+<p align="center">
 <a href="https://github.com/t-dou/kit-cre/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" title="license-mit" /></a>
 <a href="https://ci.appveyor.com/project/gjmvvv/kit">
@@ -16,11 +21,11 @@ title: 介绍
   <img src="https://img.shields.io/github/stars/t-dou/Kit.svg?style=social&label=Stars" title="GitHub stars" /></a>
 <a href="https://github.com/t-dou/Kit">
   <img src="https://img.shields.io/github/forks/t-dou/Kit.svg?style=social&label=Fork" title="GitHub forks" /></a>
+</p>
 
 > We are currently preparing to convert the comments in the code to the English version. We look forward to your joining.
 
 了解 [Core](https://github.com/t-dou/kit-core) 源码
-
 
 Kit for Unity 是Unity3D开发的工具包集合, 集成常见的开发组件以免于重复造轮子。
 
@@ -30,6 +35,12 @@ Kit 设计初衷则是根据业务需求自由组合搭配其中组件, 项目�
 
 - 任意基础组件都可抽取到其他项目中使用
 - 业务服务基于基础组件扩展(业务服务+依赖基础组件)即可抽取到其他项目中使用.
+
+
+## 关于 Kit[尚未出生,孵化中. . . ]
+
+Kit 是Unity3D开发的工具包集合, 集成常见的开发组件,工具,组件库等. 免于重复造轮子
+,Kit设计初衷则是根据业务需求自由组合搭配其中组件\tool\dll等,项目在任何阶段都可以轻松接入。
 
 
 ## 主要特色
