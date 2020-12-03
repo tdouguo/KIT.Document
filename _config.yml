@@ -47,10 +47,12 @@ cookbook:
   partials:
     index:
       - _layout/index.ejs
+    head_start:
+      - _layout/head_end.ejs
   tag:
     anchor:
       default: core
-      core: https://github.com/T-dou/Kit
+      core: https://github.com/tdouguoKit
   gitment:
     enable: true
     id: Kit
@@ -66,10 +68,10 @@ social:
   GitHub: https://github.com/T-Dou
 
 support:
-  issues: https://github.com/T-Dou/Kit/issues
+  issues: https://github.com/tdouguoKit/issues
 
 # deploy:
 #   type: git
-#   repository: git@github.com:T-Dou/Kit.Document.git
+#   repository: git@github.com:tdouguoKit.Document.git
 #   branch: "gh-pages"
 #   message: "deploy Auto Builder at `date +"%Y-%m-%d %H:%M"`"
